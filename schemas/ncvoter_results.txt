@@ -1,0 +1,102 @@
+
+[1;4mTable: 1000000 rows[0m
+ncid [2;3m1000000[0m 19.93156857 -9965784.28477965
+voter_reg_num [2;3m763499[0m 19.30420928 0.00000000
+res_street_address [2;3m465807[0m 16.97317445 0.00000000
+mail_addr1 [2;3m461248[0m 16.86591878 0.00000000
+last_name [2;3m95327[0m 12.95277241 0.00000000
+registr_dt [2;3m17145[0m 12.50736130 0.00000000
+full_phone_number [2;3m538865[0m 12.47993035 0.00000000
+middle_name [2;3m76626[0m 10.52794200 0.00000000
+first_name [2;3m52497[0m 10.37721419 0.00000000
+birth_year [2;3m104[0m 6.22456699 0.00000000
+birth_age [2;3m104[0m 6.22281824 0.00000000
+birth_state [2;3m57[0m 3.40209344 0.00000000
+party_cd [2;3m6[0m 1.64053817 0.00000000
+gender_code [2;3m4[0m 1.32748852 0.00000000
+race_code [2;3m8[0m 1.21803949 0.00000000
+ethnic_code [2;3m3[0m 0.99725531 0.00000000
+drivers_lic [2;3m2[0m 0.57171069 0.00000000
+  [1;4mTable: 50082 rows, fk cost 20.87074652, pk_cost 2406751.05269976[0m
+  mail_zipcode [2;3m21270[0m 11.55872552 0.00000000
+  mail_city [2;3m2119[0m 7.51669175 0.00000000
+  name_suffix_lbl [2;3m15[0m 1.18203727 0.00000000
+  mail_addr2 [2;3m3138[0m 1.78358405 0.00000000
+  mail_addr3 [2;3m289[0m 0.50170072 0.00000000
+  mail_addr4 [2;3m103[0m 0.47187820 0.00000000
+    [1;4mTable: 1627 rows, fk cost 19.78107986, pk_cost 90430.87927662[0m
+    zip_code [2;3m203[0m 6.99355828 0.00000000
+    res_city_desc [2;3m203[0m 6.75169891 0.00000000
+      [1;4mTable: 536 rows, fk cost 18.67008012, pk_cost 28918.26258093[0m
+      vtd_abbrv, vtd_desc [2;3m332[0m 16.13092281 0.00000000
+      precinct_desc [2;3m373[0m 8.33642921 0.00000000
+      precinct_abbrv [2;3m331[0m 8.11447420 0.00000000
+        [1;4mTable: 89 rows, fk cost 15.84840095, pk_cost 2915.76028924[0m
+        nc_house_abbrv [2;3m23[0m 3.95231279 0.00000000
+        school_dist_abbrv [2;3m40[0m 4.28073879 0.00000000
+        school_dist_desc [2;3m28[0m 3.86693068 0.00000000
+        nc_senate_abbrv [2;3m13[0m 3.42689188 0.00000000
+        county_commiss_desc [2;3m24[0m 3.20896945 0.00000000
+        county_commiss_abbrv [2;3m19[0m 3.04050070 0.00000000
+          [1;4mTable: 15 rows, fk cost 3.54919990, pk_cost 207.65268567[0m
+          super_court_abbrv [2;3m15[0m 3.90689060 -29.30167947
+            [1;4mTable: 14 rows, fk cost 3.77355726, pk_cost 121.74764727[0m
+            judic_dist_abbrv, dist_1_abbrv, dist_1_desc [2;3m14[0m 11.42206477 -79.95445336
+            cong_dist_abbrv [2;3m9[0m 2.98522814 0.00000000
+          [1;4mTable: 16 rows, fk cost 3.70937270, pk_cost 124.00000000[0m
+          county_id, county_desc [2;3m16[0m 8.00000000 -4.00000000
+        [1;4mTable: 2 rows, fk cost 0.07630696, pk_cost 3.00000000[0m
+        rescue_dist_abbrv, rescue_dist_desc [2;3m2[0m 2.00000000 -1.00000000
+      [1;4mTable: 117 rows, fk cost 3.04082593, pk_cost 2381.98824157[0m
+      municipality_desc, munic_dist_desc [2;3m117[0m 13.74072944 -803.83267219
+      municipality_abbrv, munic_dist_abbrv [2;3m110[0m 13.48850914 0.00000000
+      [1;4mTable: 4 rows, fk cost 0.12000716, pk_cost 14.00000000[0m
+      sanit_dist_abbrv, sanit_dist_desc [2;3m4[0m 4.00000000 -2.00000000
+      [1;4mTable: 6 rows, fk cost 0.31426599, pk_cost 28.43458751[0m
+      water_dist_abbrv, water_dist_desc [2;3m6[0m 5.16992500 -2.58496250
+      [1;4mTable: 6 rows, fk cost 0.07225213, pk_cost 28.43458751[0m
+      sewer_dist_abbrv, sewer_dist_desc [2;3m6[0m 5.16992500 -2.58496250
+      [1;4mTable: 8 rows, fk cost 0.23304680, pk_cost 45.00000000[0m
+      township_abbrv, township_desc [2;3m8[0m 6.00000000 -3.00000000
+      [1;4mTable: 6 rows, fk cost 0.04963313, pk_cost 28.43458751[0m
+      ward_abbrv, ward_desc [2;3m6[0m 5.16992500 -2.58496250
+      [1;4mTable: 2 rows, fk cost 0.00744330, pk_cost 3.00000000[0m
+      fire_dist_abbrv, fire_dist_desc [2;3m2[0m 2.00000000 -1.00000000
+    [1;4mTable: 5 rows, fk cost 0.83145273, pk_cost 20.89735285[0m
+    status_cd, voter_status_desc [2;3m5[0m 4.64385619 -2.32192809
+    [1;4mTable: 27 rows, fk cost 1.86142291, pk_cost 188.57294384[0m
+    reason_cd [2;3m27[0m 4.75488750 -64.19098128
+    voter_status_reason_desc [2;3m25[0m 4.60673935 0.00000000
+    [1;4mTable: 65 rows, fk cost 0.75348277, pk_cost 216.06613444[0m
+    mail_state [2;3m65[0m 6.02236781 -195.72695392
+    state_cd [2;3m2[0m 0.19823496 0.00000000
+    confidential_ind [2;3m2[0m 0.11467551 0.00000000
+=> 166836315.46
+Optimizer: 93997843 calls, 423562687 cache hits, 123370418 nodes visited
+Entropy: 1159906 calls, elapsed: 1494.15s (484.94s group, 511.07s summarize, 498.14s cache)
+Cache entries: 3774541 optimizer, 11793767 entropy
+Total elapsed: 2001.65s (5.96s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/ncvoter_Statewide_utf8_nrow_1000000_ncol_64.csv --alpha 1.0 --beta 0.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 36000.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 1950.07
+	System time (seconds): 62.08
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 33:32.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 82219656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 53978887
+	Voluntary context switches: 854
+	Involuntary context switches: 3684
+	Swaps: 0
+	File system inputs: 697424
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

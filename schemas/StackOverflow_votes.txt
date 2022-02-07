@@ -1,0 +1,80 @@
+
+[1;4mTable: 3099988 rows[0m
+  [1;4mTable: 91631 rows, fk cost 25.06906348, pk_cost 6123155.21071444[0m
+    [1;4mTable: 22911 rows, fk cost 14.07771368, pk_cost 2139737.28938029[0m
+    'votes_Id' [2;3m22911[0m 14.48375281 -165918.63030467
+    'votes_CreationDate' [2;3m1512[0m 10.29990724 0.00000000
+      [1;4mTable: 8068 rows, fk cost 11.95706357, pk_cost 895241.63522968[0m
+      'posts_Id', 'posts_CreaionDate', 'posts_Body', 'posts_LasActivityDate' [2;3m8068[0m 51.91198147 -209412.93326794
+      'posts_Title' [2;3m8067[0m 12.97774748 0.00000000
+      'posts_Tags' [2;3m6488[0m 12.31036931 0.00000000
+      'posts_ViewCount' [2;3m2663[0m 10.61623668 0.00000000
+      'posts_OwnerUserId' [2;3m4647[0m 11.56859529 0.00000000
+      'posts_LastEditDate' [2;3m6256[0m 10.54691686 0.00000000
+      'posts_LastEditorUserId' [2;3m1704[0m 6.82970970 0.00000000
+      'posts_AcceptedAnswerId' [2;3m3827[0m 6.64205789 0.00000000
+      'posts_Score' [2;3m96[0m 4.00433477 0.00000000
+      'posts_FavoriteCount' [2;3m75[0m 2.54807765 0.00000000
+      'posts_CommentCount' [2;3m29[0m 3.09747979 0.00000000
+      'posts_AnswerCount' [2;3m31[0m 2.44592575 0.00000000
+      'posts_CommunityOwnedDate' [2;3m223[0m 0.39625011 0.00000000
+      'posts_OwnerDisplayName' [2;3m305[0m 0.60115385 0.00000000
+      'posts_ClosedDate' [2;3m195[0m 0.34633387 0.00000000
+      'posts_LastEditorDisplayName' [2;3m15[0m 0.07484744 0.00000000
+      [1;4mTable: 3771 rows, fk cost 10.07290414, pk_cost 331923.31858351[0m
+      'users_Id', 'users_AccountId' [2;3m3771[0m 23.76146287 -44802.23824192
+      'users_LastAccessDate' [2;3m3768[0m 11.87914035 0.00000000
+      'users_CreationDate' [2;3m3770[0m 11.88020107 0.00000000
+      'users_DisplayName' [2;3m3614[0m 11.77434640 0.00000000
+      'users_Reputation' [2;3m808[0m 7.38249901 0.00000000
+      'users_UpVotes' [2;3m316[0m 5.35440184 0.00000000
+      'users_Views' [2;3m317[0m 5.50108320 0.00000000
+      'users_AboutMe' [2;3m1618[0m 5.61171871 0.00000000
+      'users_Location' [2;3m694[0m 5.03556865 0.00000000
+      'users_DownVotes' [2;3m73[0m 1.13165605 0.00000000
+      'users_WebsiteUrl' [2;3m1279[0m 4.56233076 0.00000000
+      'users_Age' [2;3m52[0m 2.55233702 0.00000000
+      'users_ProfileImageUrl' [2;3m939[0m 3.47395863 0.00000000
+      [1;4mTable: 10 rows, fk cost 0.25850642, pk_cost 21.29959641[0m
+      'votes_BountyAmount' [2;3m10[0m 3.32192809 -16.60964047
+      'votes_VoteTypeId' [2;3m2[0m 0.46899559 0.00000000
+    [1;4mTable: 29806 rows, fk cost 13.78187011, pk_cost 1430616.39912805[0m
+    'comments_Id' [2;3m29806[0m 14.86331516 -221507.98577747
+    'comments_CreationDate' [2;3m29797[0m 14.86271125 0.00000000
+    'comments_Text' [2;3m29772[0m 14.86067712 0.00000000
+    'comments_UserId' [2;3m4042[0m 9.13664424 0.00000000
+    'comments_Score' [2;3m30[0m 1.40814601 0.00000000
+    'comments_UserDisplayName' [2;3m277[0m 0.29776156 0.00000000
+  [1;4mTable: 30774 rows, fk cost 12.89799279, pk_cost 827113.70671863[0m
+  'badges_Id' [2;3m30774[0m 14.90942436 -229411.31257652
+  'badges_Date' [2;3m27161[0m 14.47055945 0.00000000
+  'badges_Name' [2;3m153[0m 4.95175790 0.00000000
+=> 124647687.76
+Optimizer: 5619499 calls, 21747697 cache hits, 6447307 nodes visited
+Entropy: 18557 calls, elapsed: 59.66s (48.14s group, 10.38s summarize, 1.14s cache)
+Cache entries: 206291 optimizer, 244528 entropy
+Total elapsed: 83.84s (0.23s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/relational_dataset_repo/denormalized_tables/stats_badges_votes_tags_table.csv --alpha 1.0 --beta 0.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 3600.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 95.78
+	System time (seconds): 4.32
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:40.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15193932
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 948866
+	Voluntary context switches: 364
+	Involuntary context switches: 186
+	Swaps: 0
+	File system inputs: 3987840
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

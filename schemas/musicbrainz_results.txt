@@ -1,0 +1,130 @@
+
+[1;4mTable: 1000000 rows[0m
+  [1;4mTable: 31114 rows, fk cost 24.85219268, pk_cost 1139834.58638228[0m
+  t_number [2;3m61[0m 4.50669541 0.00000000
+    [1;4mTable: 1561 rows, fk cost 9.84147016, pk_cost 146556.97152259[0m
+    t_id, t_gid [2;3m1561[0m 21.21650964 -16559.48577711
+    t_medium [2;3m1011[0m 9.77514496 0.00000000
+    t_name [2;3m1151[0m 9.86988232 0.00000000
+    t_length [2;3m883[0m 9.06851216 0.00000000
+    t_last_updated [2;3m477[0m 5.14176368 0.00000000
+    t_position [2;3m39[0m 4.23608033 0.00000000
+    t_artist_credit [2;3m167[0m 6.12697199 0.00000000
+      [1;4mTable: 1255 rows, fk cost 10.10001900, pk_cost 43645.50323774[0m
+      c_id, c_gid [2;3m1255[0m 20.58694330 -12918.30691929
+      c_name [2;3m1135[0m 10.01529110 0.00000000
+      c_length [2;3m814[0m 8.96459429 0.00000000
+      c_last_updated [2;3m349[0m 4.33162598 0.00000000
+      c_comment [2;3m12[0m 0.16295933 0.00000000
+      c_edits_pending [2;3m2[0m 0.00935107 0.00000000
+    [1;4mTable: 173 rows, fk cost 3.81394110, pk_cost 12979.16242281[0m
+    a_id, a_gid, a_name, a_sort_name, acn_name [2;3m173[0m 37.17314114 -3215.47670845
+    a_last_updated [2;3m167[0m 7.32103583 0.00000000
+    a_begin_date_year [2;3m69[0m 4.80267571 0.00000000
+    a_begin_area [2;3m47[0m 2.41543550 0.00000000
+    a_begin_date_month [2;3m13[0m 2.10092122 0.00000000
+    a_begin_date_day [2;3m27[0m 2.26956506 0.00000000
+    a_gender [2;3m3[0m 1.37462106 0.00000000
+    a_end_date_year [2;3m19[0m 1.02746135 0.00000000
+    a_end_date_month [2;3m9[0m 0.56160797 0.00000000
+    a_ended [2;3m2[0m 0.54961891 0.00000000
+    a_comment [2;3m35[0m 1.71478540 0.00000000
+    a_end_date_day [2;3m6[0m 0.33051590 0.00000000
+    acn_join_phrase [2;3m8[0m 0.85048388 0.00000000
+    acn_position [2;3m6[0m 0.63940441 0.00000000
+    a_end_area [2;3m4[0m 0.15372384 0.00000000
+      [1;4mTable: 157 rows, fk cost 7.20908170, pk_cost 3011.28657199[0m
+      ac_id, ac_name [2;3m157[0m 14.58924150 -1145.25545758
+      ac_ref_count [2;3m116[0m 6.67682636 0.00000000
+      a_type [2;3m3[0m 1.07712421 0.00000000
+      ac_created [2;3m47[0m 2.49092545 0.00000000
+      ac_artist_count [2;3m4[0m 0.58505010 0.00000000
+      a_edits_pending [2;3m2[0m 0.05562237 0.00000000
+      [1;4mTable: 22 rows, fk cost 3.23872098, pk_cost 254.57818262[0m
+      e_id, e_gid, e_name, e_last_updated [2;3m22[0m 17.83772647 -196.21499122
+      e_type [2;3m3[0m 1.09065280 0.00000000
+        [1;4mTable: 2 rows, fk cost 0.26676499, pk_cost 6.50000000[0m
+        e_begin_date_year, e_begin_date_month, e_begin_date_day [2;3m2[0m 3.00000000 -1.50000000
+    [1;4mTable: 861 rows, fk cost 8.89086465, pk_cost 107458.30254555[0m
+    rl_id [2;3m861[0m 9.74986943 -4197.31878849
+    rl_catalog_number [2;3m672[0m 8.33899227 0.00000000
+    rl_last_updated [2;3m437[0m 5.62254101 0.00000000
+      [1;4mTable: 841 rows, fk cost 9.70253506, pk_cost 61423.81475624[0m
+      r_id, r_gid [2;3m841[0m 19.43192398 -8171.12403380
+      r_last_updated [2;3m748[0m 9.12660219 0.00000000
+      r_name [2;3m626[0m 9.05980235 0.00000000
+      r_barcode [2;3m370[0m 4.93507700 0.00000000
+      r_artist_credit [2;3m162[0m 6.21602138 0.00000000
+      r_packaging [2;3m9[0m 1.48698578 0.00000000
+      r_status [2;3m5[0m 0.34427568 0.00000000
+      r_language [2;3m15[0m 1.18741599 0.00000000
+      r_script [2;3m7[0m 0.53074966 0.00000000
+      r_comment [2;3m12[0m 0.22704827 0.00000000
+      r_edits_pending [2;3m3[0m 0.02653256 0.00000000
+      r_quality [2;3m2[0m 0.01326730 0.00000000
+        [1;4mTable: 624 rows, fk cost 9.03461288, pk_cost 16931.25385637[0m
+        rg_id, rg_gid [2;3m624[0m 18.57080444 -5794.09098457
+        rg_name [2;3m612[0m 9.24252580 0.00000000
+        rg_last_updated [2;3m353[0m 6.13825310 0.00000000
+        rg_type [2;3m5[0m 1.40168863 0.00000000
+        rg_comment [2;3m3[0m 0.03437751 0.00000000
+        rg_edits_pending [2;3m2[0m 0.03117238 0.00000000
+      [1;4mTable: 340 rows, fk cost 7.56175141, pk_cost 14090.73819690[0m
+      l_id, l_gid [2;3m340[0m 16.81878187 -2859.19291829
+      l_name [2;3m338[0m 8.39762623 0.00000000
+      l_last_updated [2;3m237[0m 6.42116958 0.00000000
+      l_begin_date_year [2;3m61[0m 3.57300788 0.00000000
+      l_label_code [2;3m73[0m 2.11759721 0.00000000
+      l_area [2;3m51[0m 3.96572094 0.00000000
+      l_comment [2;3m95[0m 2.68446066 0.00000000
+      l_type [2;3m9[0m 2.22769880 0.00000000
+      l_begin_date_month [2;3m13[0m 0.74276454 0.00000000
+      l_end_date_year [2;3m20[0m 0.71887359 0.00000000
+      l_begin_date_day [2;3m9[0m 0.29811332 0.00000000
+      l_ended [2;3m2[0m 0.43055187 0.00000000
+      l_end_date_month [2;3m7[0m 0.26560761 0.00000000
+      l_end_date_day [2;3m6[0m 0.19076448 0.00000000
+  [1;4mTable: 922 rows, fk cost 6.42516370, pk_cost 40321.82788975[0m
+  p_id, p_gid, p_last_updated [2;3m922[0m 29.54586882 -13620.64552661
+  p_name [2;3m913[0m 9.82828141 0.00000000
+  p_address [2;3m428[0m 5.31029104 0.00000000
+  p_type [2;3m7[0m 1.79725329 0.00000000
+  p_comment [2;3m98[0m 1.30464030 0.00000000
+  p_begin_date_year [2;3m141[0m 2.82453252 0.00000000
+  p_coordinates [2;3m336[0m 4.19144325 0.00000000
+  p_begin_date_month [2;3m13[0m 0.72819693 0.00000000
+  p_begin_date_day [2;3m29[0m 0.69149229 0.00000000
+  p_end_date_year [2;3m39[0m 0.57250774 0.00000000
+  p_ended [2;3m2[0m 0.37180542 0.00000000
+  p_end_date_month [2;3m12[0m 0.18271110 0.00000000
+  p_end_date_day [2;3m12[0m 0.14466666 0.00000000
+  p_edits_pending [2;3m2[0m 0.01224570 0.00000000
+=> 32457512.80
+Optimizer: 1945466731 calls, 46433660128 cache hits, 11948663209 nodes visited
+Entropy: 211558 calls, elapsed: 9854.67s (90.50s group, 25.95s summarize, 9738.22s cache)
+Cache entries: 29379615 optimizer, 16854578 entropy
+Total elapsed: 67542.67s (20.20s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/papenbrock_musicbrainz_denormalized.csv --alpha 1.0 --beta 1.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 172800.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 67400.28
+	System time (seconds): 149.83
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 18:45:53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 45154156
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 147106457
+	Voluntary context switches: 5321
+	Involuntary context switches: 93787
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

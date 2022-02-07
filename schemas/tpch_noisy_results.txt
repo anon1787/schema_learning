@@ -1,0 +1,48 @@
+
+[1;4mTable: 1199236 rows[0m
+l_comment [2;3m1006519[0m 19.63551238 0.00000000
+l_extendedprice [2;3m657968[0m 19.11984485 0.00000000
+  [1;4mTable: 621844 rows, fk cost 29.05381081, pk_cost 44670998.53144535[0m
+  ps_comment [2;3m620731[0m 19.24261229 0.00000000
+  p_partkey [2;3m199726[0m 17.55219252 0.00000000
+  p_name [2;3m199719[0m 17.55214348 0.00000000
+  ps_supplycost [2;3m99954[0m 16.48939416 0.00000000
+  [1;4mTable: 302058 rows, fk cost 28.00296151, pk_cost 34088033.27393730[0m
+  o_orderkey [2;3m300227[0m 18.19233008 0.00000000
+  o_totalprice [2;3m298762[0m 18.18257835 0.00000000
+  o_comment [2;3m298804[0m 18.18222765 0.00000000
+    [1;4mTable: 93809 rows, fk cost 26.27965917, pk_cost 9368574.57532455[0m
+    c_name [2;3m92637[0m 16.49233912 0.00000000
+    c_custkey [2;3m92615[0m 16.49189422 0.00000000
+    c_address [2;3m92607[0m 16.49171562 0.00000000
+    c_phone [2;3m92598[0m 16.49152374 0.00000000
+    c_comment [2;3m92567[0m 16.49084673 0.00000000
+    c_acctbal [2;3m88873[0m 16.41029207 0.00000000
+=> 306930177.75
+Optimizer: 69814140 calls, 391571698 cache hits, 111947779 nodes visited
+Entropy: 1216220 calls, elapsed: 6412.07s (1487.99s group, 4827.14s summarize, 96.95s cache)
+Cache entries: 2421746 optimizer, 1948203 entropy
+Command terminated by signal 9
+	Command being timed: "cargo run --release /home/tsi/dting/data/denormalized_tpch_orderkey_sample_20perc_noise_0.02percent_type_replace.csv --alpha 1.0 --beta 1.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 172800.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 7787.58
+	System time (seconds): 186.76
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:12:54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 191149424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1030
+	Minor (reclaiming a frame) page faults: 212158183
+	Voluntary context switches: 2980
+	Involuntary context switches: 11609
+	Swaps: 0
+	File system inputs: 96784
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

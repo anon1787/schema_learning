@@ -1,0 +1,46 @@
+
+[1;4mTable: 147666 rows[0m
+'actors_actorid' [2;3m84646[0m 15.87768845 0.00000000
+'movies2actors_cast_num' [2;3m4[0m 1.65404348 0.00000000
+'actors_a_quality' [2;3m6[0m 1.24334921 0.00000000
+'actors_a_gender' [2;3m2[0m 0.89464957 0.00000000
+  [1;4mTable: 3792 rows, fk cost 11.56880285, pk_cost 50035.29339824[0m
+  'movies_movieid' [2;3m3792[0m 11.88874325 -22541.05719991
+  'movies2directors_genre' [2;3m9[0m 2.65714819 0.00000000
+  'movies_runningtime' [2;3m4[0m 1.63839269 0.00000000
+  'movies_country' [2;3m4[0m 1.29359231 0.00000000
+  'movies_year' [2;3m4[0m 1.16322919 0.00000000
+  'movies_isEnglish' [2;3m2[0m 0.49822732 0.00000000
+  [1;4mTable: 2178 rows, fk cost 10.28791815, pk_cost 20259.30887936[0m
+  'directors_directorid' [2;3m2178[0m 11.08878824 -12075.69039196
+  'directors_avg_revenue' [2;3m5[0m 2.31386808 0.00000000
+  'directors_d_quality' [2;3m6[0m 1.44353251 0.00000000
+=> 6202339.62
+Optimizer: 4526 calls, 3365 cache hits, 1879 nodes visited
+Entropy: 523 calls, elapsed: 0.25s (0.19s group, 0.06s summarize, 0.00s cache)
+Cache entries: 609 optimizer, 855 entropy
+Total elapsed: 0.30s (0.00s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/relational_dataset_repo/denormalized_tables/movielens_table.csv --alpha 1.0 --beta 0.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 3600.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 0.54
+	System time (seconds): 0.07
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 79132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29145
+	Voluntary context switches: 299
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

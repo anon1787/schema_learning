@@ -1,0 +1,76 @@
+
+[1;4mTable: 1262625 rows[0m
+'trans_trans_id' [2;3m1056320[0m 19.94120734 0.00000000
+'trans_balance' [2;3m111042[0m 16.09776868 0.00000000
+'trans_amount' [2;3m35890[0m 10.80104037 0.00000000
+'trans_date' [2;3m2191[0m 9.79751232 0.00000000
+'trans_k_symbol' [2;3m9[0m 2.29253538 0.00000000
+'trans_operation' [2;3m6[0m 2.14116898 0.00000000
+'trans_type' [2;3m3[0m 1.06335463 0.00000000
+  [1;4mTable: 5369 rows, fk cost 12.17633649, pk_cost 431311.28292703[0m
+  'client_client_id', 'disp_disp_id', 'disp_client_id' [2;3m5369[0m 37.17131307 -99786.38993288
+  'client_birth_date' [2;3m4738[0m 12.14691381 0.00000000
+  'account_account_id' [2;3m4500[0m 12.06672750 0.00000000
+  'account_date' [2;3m1535[0m 10.30988928 0.00000000
+  'client_district_id' [2;3m77[0m 5.94142849 0.00000000
+  'client_gender' [2;3m2[0m 0.99984382 0.00000000
+  'disp_type' [2;3m2[0m 0.63872912 0.00000000
+  'account_frequency' [2;3m3[0m 0.43649804 0.00000000
+    [1;4mTable: 77 rows, fk cost 5.93688675, pk_cost 5609.04189944[0m
+    'district_district_id', 'district_A2', 'district_A4' [2;3m77[0m 18.80035962 -723.81384545
+    'district_A15' [2;3m76[0m 6.24081251 0.00000000
+    'district_A11' [2;3m76[0m 6.24081251 0.00000000
+    'district_A16' [2;3m76[0m 6.24081251 0.00000000
+    'district_A13' [2;3m73[0m 6.16289044 0.00000000
+    'district_A10' [2;3m70[0m 6.05899433 0.00000000
+    'district_A14' [2;3m44[0m 5.27926576 0.00000000
+    'district_A5' [2;3m53[0m 5.57692400 0.00000000
+    'district_A12' [2;3m42[0m 5.18517339 0.00000000
+    'district_A6' [2;3m36[0m 4.83804279 0.00000000
+    'district_A7' [2;3m17[0m 3.65431121 0.00000000
+    'district_A9' [2;3m11[0m 3.16873458 0.00000000
+    'district_A3' [2;3m8[0m 2.85290892 0.00000000
+    'district_A8' [2;3m6[0m 1.94483720 0.00000000
+    [1;4mTable: 683 rows, fk cost 2.05866889, pk_cost 24525.93120736[0m
+    'loan_loan_id' [2;3m683[0m 9.41574177 -3215.47581387
+    'loan_amount' [2;3m646[0m 9.30336272 0.00000000
+    'loan_payments' [2;3m578[0m 9.09026042 0.00000000
+    'loan_date' [2;3m560[0m 9.03020251 0.00000000
+    'loan_duration' [2;3m6[0m 2.33327354 0.00000000
+    'loan_status' [2;3m5[0m 1.44415321 0.00000000
+    [1;4mTable: 893 rows, fk cost 2.27710682, pk_cost 17838.57371946[0m
+    'card_card_id', 'card_disp_id' [2;3m893[0m 19.60503273 -8753.64711405
+    'card_issued' [2;3m608[0m 9.08371896 0.00000000
+    'card_type' [2;3m4[0m 1.08977108 0.00000000
+  [1;4mTable: 7666 rows, fk cost 4.32752801, pk_cost 77842.48201253[0m
+  'trans_account' [2;3m7666[0m 12.90425828 -49462.02199797
+  'trans_bank' [2;3m14[0m 3.70212106 0.00000000
+=> 99800029.48
+Optimizer: 18097445 calls, 51222446 cache hits, 16393226 nodes visited
+Entropy: 16357 calls, elapsed: 36.35s (23.55s group, 6.64s summarize, 6.16s cache)
+Cache entries: 550986 optimizer, 652304 entropy
+Total elapsed: 95.70s (0.38s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/relational_dataset_repo/denormalized_tables/financial_table.csv --alpha 1.0 --beta 0.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 3600.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 98.50
+	System time (seconds): 3.97
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6444924
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 3358079
+	Voluntary context switches: 713
+	Involuntary context switches: 149
+	Swaps: 0
+	File system inputs: 773128
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

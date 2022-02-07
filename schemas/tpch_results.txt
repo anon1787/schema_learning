@@ -1,0 +1,80 @@
+
+[1;4mTable: 6001215 rows[0m
+l_comment [2;3m4580667[0m 21.58392949 0.00000000
+l_extendedprice [2;3m933900[0m 19.65120499 0.00000000
+l_receiptdate [2;3m2554[0m 11.26993489 0.00000000
+l_commitdate [2;3m2466[0m 11.25036148 0.00000000
+l_quantity [2;3m50[0m 5.64385022 0.00000000
+l_discount [2;3m11[0m 3.45943093 0.00000000
+l_tax [2;3m9[0m 3.16992419 0.00000000
+l_shipmode [2;3m7[0m 2.80735462 0.00000000
+l_linenumber [2;3m7[0m 2.61026050 0.00000000
+l_shipinstruct [2;3m4[0m 1.99999994 0.00000000
+l_returnflag [2;3m3[0m 1.49264421 0.00000000
+  [1;4mTable: 799541 rows, fk cost 29.51091111, pk_cost 81721415.44976135[0m
+  ps_comment [2;3m798665[0m 19.60662123 0.00000000
+  ps_supplycost [2;3m99865[0m 16.51520392 0.00000000
+  ps_availqty [2;3m9999[0m 13.27860341 0.00000000
+    [1;4mTable: 10000 rows, fk cost 13.28770733, pk_cost 521699.01808649[0m
+    s_suppkey, s_name, s_address, s_phone, s_comment [2;3m10000[0m 66.43856190 -332192.80948874
+    s_acctbal [2;3m9955[0m 13.27871238 0.00000000
+      [1;4mTable: 25 rows, fk cost 4.64255460, pk_cost 293.53883877[0m
+      n_nationkey, n_name, n_comment [2;3m25[0m 13.93156857 -174.14460712
+        [1;4mTable: 5 rows, fk cost 2.32192809, pk_cost 36.34602928[0m
+        r_regionkey, r_name, r_comment [2;3m5[0m 6.96578428 -3.48289214
+    [1;4mTable: 200000 rows, fk cost 17.60952667, pk_cost 16198902.00467034[0m
+    p_partkey [2;3m200000[0m 17.60964047 -1760964.04744368
+    p_name [2;3m199997[0m 17.60961047 0.00000000
+    p_comment [2;3m131753[0m 16.41898088 0.00000000
+    p_retailprice [2;3m20899[0m 14.32312058 0.00000000
+    p_type [2;3m150[0m 7.22815314 0.00000000
+    p_size [2;3m50[0m 5.64358768 0.00000000
+    p_container [2;3m40[0m 5.32178090 0.00000000
+      [1;4mTable: 25 rows, fk cost 4.64375064, pk_cost 141.09640474[0m
+      p_brand [2;3m25[0m 4.64385619 -58.04820237
+      p_mfgr [2;3m5[0m 2.32192809 0.00000000
+  [1;4mTable: 1500000 rows, fk cost 20.31915165, pk_cost 147008792.20110625[0m
+  o_orderkey [2;3m1500000[0m 20.51653107 -15387398.30253400
+  o_comment [2;3m1482071[0m 20.49010309 0.00000000
+  o_totalprice [2;3m1464556[0m 20.46897538 0.00000000
+  o_orderdate [2;3m2406[0m 11.23117367 0.00000000
+  o_clerk [2;3m1000[0m 9.96526834 0.00000000
+  o_orderpriority [2;3m5[0m 2.32192462 0.00000000
+  o_orderstatus [2;3m3[0m 1.14662426 0.00000000
+    [1;4mTable: 99996 rows, fk cost 16.47901325, pk_cost 6966769.98186874[0m
+    c_custkey, c_name, c_address, c_phone [2;3m99996[0m 66.43833106 -3321783.67643407
+    c_comment [2;3m99984[0m 16.60934276 0.00000000
+    c_acctbal [2;3m95585[0m 16.52006872 0.00000000
+    c_mktsegment [2;3m5[0m 2.32190963 0.00000000
+  [1;4mTable: 2526 rows, fk cost 11.26838451, pk_cost 19327.23296074[0m
+  l_shipdate [2;3m2526[0m 11.30263892 -14275.23296074
+  l_linestatus [2;3m2[0m 1.00000000 0.00000000
+=> 1105151026.60
+Optimizer: 2711949 calls, 7664392 cache hits, 2500647 nodes visited
+Entropy: 19753 calls, elapsed: 1305.43s (878.90s group, 432.67s summarize, -6.14s cache)
+Cache entries: 136011 optimizer, 87844 entropy
+Total elapsed: 1334.97s (2.75s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/denormalized_tpch.csv --alpha 1.0 --beta 1.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 3600.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 1385.35
+	System time (seconds): 48.42
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 23:46.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 76378116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 114
+	Minor (reclaiming a frame) page faults: 32708525
+	Voluntary context switches: 28147
+	Involuntary context switches: 2301
+	Swaps: 0
+	File system inputs: 12450416
+	File system outputs: 9936
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

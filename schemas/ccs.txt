@@ -1,0 +1,50 @@
+
+[1;4mTable: 1000 rows[0m
+'transactions_1k_TransactionID' [2;3m1000[0m 9.96578428 0.00000000
+'transactions_1k_Price' [2;3m930[0m 9.79364532 0.00000000
+'transactions_1k_CardID' [2;3m902[0m 9.75823541 0.00000000
+'transactions_1k_Time' [2;3m599[0m 9.03380037 0.00000000
+'transactions_1k_Amount' [2;3m83[0m 5.32466427 0.00000000
+'transactions_1k_Date' [2;3m4[0m 1.37018009 0.00000000
+  [1;4mTable: 517 rows, fk cost 8.49749164, pk_cost 10335.15644215[0m
+  'customers_CustomerID', 'transactions_1k_CustomerID' [2;3m517[0m 18.02804094 0.00000000
+  'customers_Segment' [2;3m3[0m 1.55606438 0.00000000
+  'customers_Currency' [2;3m2[0m 0.40652610 0.00000000
+  [1;4mTable: 437 rows, fk cost 8.39564710, pk_cost 9596.17613228[0m
+  'gasstations_GasStationID', 'transactions_1k_GasStationID' [2;3m437[0m 17.54297894 0.00000000
+    [1;4mTable: 33 rows, fk cost 3.86531439, pk_cost 240.75194637[0m
+    'gasstations_ChainID' [2;3m33[0m 5.04439412 0.00000000
+    'gasstations_Segment' [2;3m5[0m 2.25111941 0.00000000
+  [1;4mTable: 28 rows, fk cost 2.41046969, pk_cost 422.80648066[0m
+  'products_ProductID', 'transactions_1k_ProductID' [2;3m28[0m 9.61470984 0.00000000
+  'products_Description' [2;3m27[0m 4.73592635 0.00000000
+  'gasstations_Country' [2;3m2[0m 0.74959526 0.00000000
+=> 84904.06
+Optimizer: 3448 calls, 3064 cache hits, 1571 nodes visited
+Entropy: 352 calls, elapsed: 0.00s (0.00s group, 0.00s summarize, 0.00s cache)
+Cache entries: 413 optimizer, 633 entropy
+Total elapsed: 0.01s (0.00s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/relational_dataset_repo/denormalized_tables/ccs_table.csv --alpha 1.0 --beta 0.0 --tau 0.0 --gamma 10.0 --timeout 3600.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 0.10
+	System time (seconds): 0.03
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8044
+	Voluntary context switches: 313
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,55 @@
+
+[1;4mTable: 2328444 rows[0m
+'vykony_Body' [2;3m4200[0m 7.64128014 0.00000000
+'vykony_Kod_polozky' [2;3m1869[0m 7.05938661 0.00000000
+'vykony_Pocet' [2;3m81[0m 1.70610043 0.00000000
+  [1;4mTable: 181197 rows, fk cost 27.03678116, pk_cost 9907926.16392722[0m
+    [1;4mTable: 486 rows, fk cost 8.56225744, pk_cost 8665.99294100[0m
+    'vykony_Datum_provedeni_vykonu', 'zup_Datum_provedeni_vykonu' [2;3m486[0m 17.84962501 -8.92481250
+    [1;4mTable: 22638 rows, fk cost 13.31036730, pk_cost 1937821.74517849[0m
+    'pripady_Identifikace_pripadu' [2;3m22638[0m 14.46645889 -163745.84812533
+    'pripady_Identifikator_pacienta' [2;3m18176[0m 13.98341839 0.00000000
+    'pripady_Seznam_vedlejsich_diagnoz' [2;3m15659[0m 12.26174224 0.00000000
+    'pripady_Zakladni_diagnoza' [2;3m2290[0m 9.14969215 0.00000000
+    'pripady_Datum_prijeti' [2;3m432[0m 8.40007595 0.00000000
+    'pripady_Datum_propusteni' [2;3m365[0m 8.32971158 0.00000000
+    'pripady_DRG_skupina' [2;3m823[0m 8.34734130 0.00000000
+    'pripady_PSC' [2;3m1003[0m 7.45615699 0.00000000
+    'pripady_Delka_hospitalizace' [2;3m142[0m 4.62915224 0.00000000
+    'pripady_Vekovy_Interval_Pacienta' [2;3m9[0m 2.94953324 0.00000000
+    'pripady_Kod_zdravotni_pojistovny' [2;3m21[0m 1.86075821 0.00000000
+    'pripady_Pohlavi_pacienta' [2;3m2[0m 0.99958341 0.00000000
+    [1;4mTable: 12042 rows, fk cost 20.09758055, pk_cost 356563.13814110[0m
+    'zup_Cena' [2;3m11211[0m 13.39853164 0.00000000
+    'zup_Kod_polozky' [2;3m2223[0m 8.67967902 0.00000000
+    'zup_Pocet' [2;3m575[0m 6.52217281 0.00000000
+    'zup_Typ_polozky' [2;3m3[0m 1.00957651 0.00000000
+=> 111063795.63
+Optimizer: 70989 calls, 71899 cache hits, 32260 nodes visited
+Entropy: 7326 calls, elapsed: 49.59s (31.40s group, 18.33s summarize, -0.14s cache)
+Cache entries: 6287 optimizer, 11555 entropy
+Total elapsed: 50.25s (0.11s freeing memory)
+
+	Command being timed: "cargo run --release /home/tsi/dting/data/relational_dataset_repo/denormalized_tables/FNHK_table.csv --alpha 1.0 --beta 0.0 --tau 0.0 --gamma 10.0 --neg-gamma 0.5 --timeout 3600.0 --limit 127 --fk-mult 1.0"
+	User time (seconds): 53.41
+	System time (seconds): 1.88
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:55.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5571724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 736846
+	Voluntary context switches: 255
+	Involuntary context switches: 156
+	Swaps: 0
+	File system inputs: 814336
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
